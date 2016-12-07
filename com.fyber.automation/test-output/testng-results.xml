@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44122" started-at="2016-12-07T12:32:50Z" finished-at="2016-12-07T12:33:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44122" started-at="2016-12-07T12:32:50Z" finished-at="2016-12-07T12:33:35Z">
+      <class name="com.fyber.test.FyberTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.fyber.test.FyberTest@18f65a4]" name="testSetUp" is-config="true" duration-ms="13713" started-at="2016-12-07T13:32:50Z" finished-at="2016-12-07T13:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="verifyMovieIMDB()[pri:0, instance:com.fyber.test.FyberTest@18f65a4]" name="verifyMovieIMDB" duration-ms="27319" started-at="2016-12-07T13:33:04Z" finished-at="2016-12-07T13:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMovieIMDB -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.fyber.test.FyberTest@18f65a4]" name="tearDown" is-config="true" duration-ms="3037" started-at="2016-12-07T13:33:32Z" finished-at="2016-12-07T13:33:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMovieIMDB status=SUCCESS method=FyberTest.verifyMovieIMDB()[pri:0, instance:com.fyber.test.FyberTest@18f65a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fyber.test.FyberTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
